@@ -11,5 +11,20 @@ Index: Normal, benign web requests.
 To enhance the dataset's robustness and reduce noise and imbalance, supplementary data from external cybersecurity repositories were integrated. The dataset is constructed with 67 features extracted from URLs, followed by preprocessing steps such as label encoding, TF-IDF transformation on a character level, and meticulous cleaning to remove duplicates, address missing values, and eliminate outliers. Despite the imbalanced nature of the dataset, with a higher proportion of normal traffic, it serves as a robust foundation for developing a machine learning-based classifier intended to replace the existing regular expression-based detection in TANNER, aiming for improved accuracy and lower latency in real-time web attack detection. 
 
 
-Class Dsitribution (Imbalanced)
+Class Distributions (Imbalanced)
 <img width="192" alt="Screenshot 2024-08-16 at 12 51 11 PM" src="https://github.com/user-attachments/assets/f7a3737e-0a3e-42ad-a701-317c243da1a5">
+
+
+External Datasets Used:
+
+- https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html
+- https://github.com/das-lab/deep-xss/blob/master/xssed.csvl
+- https://github.com/infosec-au/fuzzdb/blob/master/attack-payloads/rfi/rfi.txt
+- https://github.com/shalayiding/XSS-attack-detection-using-deep-learning/blob/main/XSS_dataset_mixed.csv
+- https://www.kaggle.com/datasets/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning
+- https://github.com/payloadbox/xss-payload-list/blob/master/Intruder/xss-payload-list.txt
+- https://raw.githubusercontent.com/emadshanab/LFI-Payload-List/master/LFI%20payloads.txt
+- https://www.kaggle.com/datasets/sajid576/sql-injection-dataset
+- https://www.kaggle.com/datasets/syedsaqlainhussain/sql-injection-dataset
+- https://github.com/saptajitbanerjee/SQL-Injection-Detection
+- https://www.kaggle.com/datasets/siddharthkumar25/malicious-and-benign-urls
