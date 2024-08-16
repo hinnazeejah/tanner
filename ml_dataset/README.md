@@ -17,14 +17,14 @@ Class Distributions (Imbalanced)
 
 External Datasets Used:
 
-- https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html
-- https://github.com/das-lab/deep-xss/blob/master/xssed.csvl
-- https://github.com/infosec-au/fuzzdb/blob/master/attack-payloads/rfi/rfi.txt
-- https://github.com/shalayiding/XSS-attack-detection-using-deep-learning/blob/main/XSS_dataset_mixed.csv
-- https://www.kaggle.com/datasets/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning
-- https://github.com/payloadbox/xss-payload-list/blob/master/Intruder/xss-payload-list.txt
-- https://raw.githubusercontent.com/emadshanab/LFI-Payload-List/master/LFI%20payloads.txt
-- https://www.kaggle.com/datasets/sajid576/sql-injection-dataset
-- https://www.kaggle.com/datasets/syedsaqlainhussain/sql-injection-dataset
-- https://github.com/saptajitbanerjee/SQL-Injection-Detection
-- https://www.kaggle.com/datasets/siddharthkumar25/malicious-and-benign-urls
+- [XSS Payload List - Cross Site Scripting Vulnerability Payload List] (https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html)
+- [Deep-XSS] (https://github.com/das-lab/deep-xss/blob/master/xssed.csvl)
+- [RFI Payloads] (https://github.com/infosec-au/fuzzdb/blob/master/attack-payloads/rfi/rfi.txt)
+- [XSS-attack-detection] (https://github.com/shalayiding/XSS-attack-detection-using-deep-learning/blob/main/XSS_dataset_mixed.csv)
+- [Cross site scripting XSS dataset for Deep learning] (https://www.kaggle.com/datasets/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning)
+- [XSS Payload List] (https://github.com/payloadbox/xss-payload-list/blob/master/Intruder/xss-payload-list.txt)
+- [LFI Payloads] (https://raw.githubusercontent.com/emadshanab/LFI-Payload-List/master/LFI%20payloads.txt)
+- [SQL Injection Dataset] (https://www.kaggle.com/datasets/sajid576/sql-injection-dataset)
+- [sql injection dataset] (https://www.kaggle.com/datasets/syedsaqlainhussain/sql-injection-dataset)
+- [SQL-Injection-Detection] (https://github.com/saptajitbanerjee/SQL-Injection-Detection)
+- [Malicious And Benign URLs] (https://www.kaggle.com/datasets/siddharthkumar25/malicious-and-benign-urls)
