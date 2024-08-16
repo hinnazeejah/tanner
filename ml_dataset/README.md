@@ -1,10 +1,10 @@
 The dataset used in this project is derived from web traffic data collected by SNARE sensors over several years, with annotations based on regular expressions to identify various types of web-based attacks. 
 
 This dataset includes four primary types of attacks: 
--	SQL Injection (SQLi)  Malicious SQL queries are injected into input fields to manipulate databases
--	Cross-Site Scripting (XSS)  Attackers inject malicious scripts into web pages viewed by other users
--	Local File Inclusion (LFI)  Exploits vulnerabilities to access files on the server
--	Remote File Inclusion (RFI)  Allows attackers to include remote files on a web server
+-	SQL Injection (SQLi): Malicious SQL queries are injected into input fields to manipulate databases
+-	Cross-Site Scripting (XSS): Attackers inject malicious scripts into web pages viewed by other users
+-	Local File Inclusion (LFI): Exploits vulnerabilities to access files on the server
+-	Remote File Inclusion (RFI): Allows attackers to include remote files on a web server
   
 Index  Normal, benign web requests.
 
