@@ -17,7 +17,7 @@ Class Distributions (Imbalanced)
 
 External Datasets Used:
 
-- [XSS Payload List - Cross Site Scripting Vulnerability Payload List] (https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html)
+- [XSS Payload List - Cross Site Scripting Vulnerability Payload List](https://www.kitploit.com/2018/05/xss-payload-list-cross-site-scripting.html)
 - [Deep-XSS] (https://github.com/das-lab/deep-xss/blob/master/xssed.csvl)
 - [RFI Payloads] (https://github.com/infosec-au/fuzzdb/blob/master/attack-payloads/rfi/rfi.txt)
 - [XSS-attack-detection] (https://github.com/shalayiding/XSS-attack-detection-using-deep-learning/blob/main/XSS_dataset_mixed.csv)
