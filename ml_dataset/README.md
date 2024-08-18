@@ -13,12 +13,12 @@ To enhance the dataset's robustness and reduce noise and imbalance, supplementar
 Class Distributions (Imbalanced)
 <img width="192" alt="Screenshot 2024-08-16 at 12 51 11 PM" src="https://github.com/user-attachments/assets/f7a3737e-0a3e-42ad-a701-317c243da1a5">
 
-Label 0: Index
-Label 1: LFI 
-Label 2: RFI
-Label 3: SQLi
-Label 4: Unknown
-Label 5: XSS
+- Label 0: Index
+- Label 1: LFI 
+- Label 2: RFI
+- Label 3: SQLi
+- Label 4: Unknown
+- Label 5: XSS
 
 External Datasets Used:
 
