@@ -10,11 +10,13 @@ This dataset includes *four* primary types of attacks:
 To enhance the dataset's robustness and reduce noise and imbalance, supplementary data from external cybersecurity repositories were integrated. The dataset is constructed with 67 features extracted from URLs, followed by preprocessing steps such as label encoding, TF-IDF transformation on a character level, and meticulous cleaning to remove duplicates, address missing values, and eliminate outliers. Despite the imbalanced nature of the dataset, with a higher proportion of normal traffic, it serves as a robust foundation for developing a machine learning-based classifier intended to replace the existing regular expression-based detection in TANNER, aiming for improved accuracy and lower latency in real-time web attack detection. 
 
 
+
 **Data Preprocessing**
 
 To prepare the dataset for modeling, I began by addressing any missing values—removing rows where essential data like path and payload were absent, and imputing values in less critical columns with averages or the most frequent entries. Duplicate records were eliminated to ensure the integrity of the dataset, and outliers were either transformed using log scaling or removed entirely if they were deemed erroneous. The target labels, representing different types of web traffic and attacks (SQLi, XSS, LFI, RFI, and normal traffic), were converted into numerical form through label encoding, making them ready for model consumption.
 
 A significant step in the preprocessing was the application of TF-IDF (Term Frequency-Inverse Document Frequency) at the character level to the path and payload columns. This technique helped capture intricate patterns within the URLs and payloads, which are crucial for accurate web attack detection. Additionally, normalization and standardization were applied as needed to ensure that the data was on a consistent scale, particularly for features with a wide range of values. These preprocessing steps were crucial in laying a solid foundation for training robust machine learning models.
+
 
 
 **Modeling Approach**
