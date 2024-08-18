@@ -32,13 +32,16 @@ Statistics:
 
 **Train Set**
 
-Class Distribution
+Class Distribution:/
+<img width="220" alt="train data label dist" src="https://github.com/user-attachments/assets/5534f301-b193-43dd-b691-71d012d6455f">
+
 
 Statistics:
 
 **Test Set** 
 
 Class Distribution:
+<img width="203" alt="test data label dist" src="https://github.com/user-attachments/assets/af8b7a65-972b-4532-8a31-9c46135a86d8">
 
 Statistics:
 
