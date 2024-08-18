@@ -1,4 +1,4 @@
-[train_data_statistics.csv](https://github.com/user-attachments/files/16646855/train_data_statistics.csv)The dataset used in this project is derived from web traffic data collected by SNARE sensors over several years, with annotations based on regular expressions to identify various types of web-based attacks. 
+The dataset used in this project is derived from web traffic data collected by SNARE sensors over several years, with annotations based on regular expressions to identify various types of web-based attacks. 
 
 This dataset includes *four* primary types of attacks: 
 -	**SQL Injection (SQLi)**: Malicious SQL queries are injected into input fields to manipulate databases
@@ -29,6 +29,7 @@ Class Distribution\
 <img width="192" alt="Screenshot 2024-08-16 at 12 51 11 PM" src="https://github.com/user-attachments/assets/f7a3737e-0a3e-42ad-a701-317c243da1a5">
 
 Statistics: 
+[full_data_statistics.csv](https://github.com/user-attachments/files/16646880/full_data_statistics.csv)
 
 
 **Train Set**
@@ -38,6 +39,7 @@ Class Distribution:\
 
 
 Statistics:
+[train_data_statistics.csv](https://github.com/user-attachments/files/16646855/train_data_statistics.csv)
 
 **Test Set** 
 
@@ -45,7 +47,7 @@ Class Distribution:\
 <img width="203" alt="test data label dist" src="https://github.com/user-attachments/assets/af8b7a65-972b-4532-8a31-9c46135a86d8">
 
 Statistics:
-
+[test_data_statistics.csv](https://github.com/user-attachments/files/16646870/test_data_statistics.csv)
 
 External Datasets Used:
 
