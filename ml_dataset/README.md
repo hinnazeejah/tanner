@@ -23,7 +23,7 @@ A significant step in the preprocessing was the application of TF-IDF (Term Freq
 
 I tested several machine learning models on my dataset to determine which one provided the best performance for web attack detection. The models I evaluated include Random Forest, XGBoost, a Multi-layer Neural Network (Dense), LightGBM, and a Decision Tree. Each model was tuned with specific parameters, and their performance was measured using accuracy, log loss, and a confusion matrix.
 
-Among the models tested, the Random Forest model stood out as the best performer, achieving an accuracy of 94.48% with a log loss of 0.1312. This model outperformed others in both accuracy and log loss, making it the optimal choice for further deployment. The confusion matrix for the Random Forest model also showed the best balance in correctly identifying different types of web traffic and attacks.\
+Among the models tested, the Random Forest model stood out as the best performer, achieving an accuracy of **94.48%** with a log loss of 0.1312. This model outperformed others in both accuracy and log loss, making it the optimal choice for further deployment. The confusion matrix for the Random Forest model also showed the best balance in correctly identifying different types of web traffic and attacks.\
 <img width="1123" alt="diff model training" src="https://github.com/user-attachments/assets/39c83499-4a6b-42a3-b167-03f0ef58b449">
 
 
