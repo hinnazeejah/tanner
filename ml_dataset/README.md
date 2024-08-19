@@ -1,3 +1,5 @@
+# Enhanced Web Attack Detection for TANNER: A Machine Learning Approach (Google Summer of Code 2024)
+
 The dataset used in this project is derived from web traffic data collected by SNARE sensors over several years, with annotations based on regular expressions to identify various types of web-based attacks. 
 
 This dataset includes *four* primary types of attacks: 
