@@ -23,9 +23,9 @@ A significant step in the preprocessing was the application of TF-IDF (Term Freq
 
 **Modeling Approach**
 
-I tested several machine learning models on my dataset to determine which one provided the best performance for web attack detection. The models I evaluated include Random Forest, XGBoost, a Multi-layer Neural Network (Dense), LightGBM, and a Decision Tree. Each model was tuned with specific parameters, and their performance was measured using accuracy, log loss, and a confusion matrix.
+I tested several machine learning models on my dataset to determine which one provided the best performance for web attack detection. The models I evaluated include Random Forest, XGBoost, a Multi-layer Neural Network (Dense), LightGBM, and a Decision Tree. Each model was tuned with specific parameters, and their performance was measured using accuracy, f1 score, log loss, and a confusion matrix.
 
-Among the models tested, the Random Forest model stood out as the best performer, achieving an accuracy of **94.48%** with a log loss of 0.1312. This model outperformed others in both accuracy and log loss, making it the optimal choice for further deployment. The confusion matrix for the Random Forest model also showed the best balance in correctly identifying different types of web traffic and attacks.
+Among the models tested, the Random Forest model stood out as the best performer, achieving an accuracy of **94.48%**, f1 score of **94.18**, with a log loss of 0.1312. This model outperformed others in both accuracy and log loss, making it the optimal choice for further deployment. The confusion matrix for the Random Forest model also showed the best balance in correctly identifying different types of web traffic and attacks.
 
 <img width="489" alt="Screenshot 2024-08-19 at 12 29 18 PM" src="https://github.com/user-attachments/assets/ae034a95-a835-4a0e-8515-53b2de9f0dc4">
 
@@ -88,6 +88,10 @@ The Random Forest model’s significant improvement in detecting web-based attac
 *Real-Time Processing & Efficiency*: To ensure that the ML model can handle real-time traffic efficiently, optimizations such as model compression or the use of more lightweight models could be explored. Integrating the model with TANNER’s existing caching mechanisms could also reduce the computational load and improve response times.
 
 *Continuous Learning & Adaptation*: One of the strengths of ML models is their ability to learn from new data. Future work could focus on implementing a pipeline that allows the Random Forest model to be retrained periodically with new attack data, ensuring that it remains up-to-date with the latest threat patterns. Also, we could try out a hybrid approach combining both regex-based and ML-based detection could be explored to leverage the strengths of both methods.
+
+*Neural Network Approaches*: Transformer-based neural networks, known for their ability to capture complex patterns in sequential data, could be employed to further improve detection accuracy. These models, particularly those fine-tuned for cybersecurity, could be integrated into TANNER for more sophisticated threat analysis.
+
+*Ensemble Learning*: Combining the Random Forest model with other models, including neural networks, through ensemble learning could lead to even higher detection rates. By leveraging the strengths of multiple algorithms, TANNER could achieve a more robust and adaptable defense against evolving web threats.
 
 **External Datasets Used**
 
